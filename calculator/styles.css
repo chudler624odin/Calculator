@@ -9,21 +9,120 @@
     flex-direction: column;
     border: 2px black solid;
     border-radius: 5px;
+    /*background-color: white;*/
+    background-image: linear-gradient(to bottom right, purple, lavender)
 
 }
 
 .screen{
+    display:flex;
+    flex-direction: row;
     border: 4px black solid;
     border-radius: 5px;
     background-color: lightgray;
     height: 75px;
+    margin: 10px;
 }
 
-.press{
+.previous{
+    display:flex;
+    font-size: 20px;
+    justify-content:flex-end;
+    align-items:center;
+    flex: 1;
+}
+
+.current{
+    display:flex;
+    font-size: 20px;
+    justify-content:flex-start;
+    align-items:center;
+    flex: 1;
+}
+
+
+.num{
+    display: flex;
+    padding: 10px;
+    border: 2px rgb(29, 216, 5) solid;
+    margin: 10px;
+    border-radius: 5px;
+    height:50px;
+    width: 50px;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(29, 216, 5) ;
+    font-weight:800;
+    
+}
+
+.operator{
+    display: flex;
+    padding: 10px;
+    border: 2px orange  solid;
+    margin: 10px;
+    border-radius: 5px;
+    height:50px;
+    width: 50px;
+    align-content: center;
+    justify-content: center;
+    background-color: WHITE;
+    color: orange;
+    font-weight:800;
+}
+
+.decimal{
+    display: flex;
+    padding: 10px;
+    border: 2px rgb(7, 200, 248)  solid;
+    margin: 10px;
+    border-radius: 5px;
+    height:50px;
+    width: 50px;
+    align-content: center;
+    justify-content: center;
+    background-color: WHITE;
+    color: rgb(7, 200, 248) ;
+    font-weight:800;
+}
+
+.equal{
+    display: flex;
+    padding: 10px;
+    border: 2px blue  solid;
+    margin: 10px;
+    border-radius: 5px;
+    height:50px;
+    width: 50px;
+    align-content: center;
+    justify-content: center;
+    background-color: WHITE;
+    background-image: none;
+    color: blue;
+    font-weight:800;
+}
+
+.bigB{
+    display: flex;
     padding: 10px;
     border: 2px black solid;
     margin: 10px;
     border-radius: 5px;
+    height:30px;
+    width: 105px;
+    align-content: center;
+    justify-content: center;
+}
+
+#clear{
+    font-weight:800;
+    background-image: linear-gradient(to bottom right, paleturquoise, white);
+}
+
+#delete{
+    font-weight:800;
+    background-image: linear-gradient(to bottom right, lightcoral, white);
 }
 
 .row1{
@@ -31,22 +130,8 @@
     flex-direction: row;
 }
 
-.row2{
+.row{
     display: flex;
     flex-direction: row;
-}
-
-.row3{
-    display: flex;
-    flex-direction: row;
-}
-
-.row4{
-    display: flex;
-    flex-direction: row;
-}
-
-.row5{
-    display: flex;
-    flex-direction: row;
+    justify-content: center;
 }

@@ -8,79 +8,49 @@
 </head>
 <body>
 <script src="main.js" defer></script>
+<script src="effects.js" defer></script>
 
 <div class="page">
     <div class="body">
         <div class="screen">
+                <div class="previous"></div>
+                <div class="current"></div>
 
         </div>
         <div class="row1">
-            <div class="clear press">
-                Clear
+            <div class="bigB" id="clear">
+                CLEAR
             </div>
-            <div class="delete press">
-                Delete
-            </div>
-        </div>
-        <div class="row2">
-            <div class="seven press">
-                7
-            </div>
-            <div class="eight press">
-                8
-            </div>
-            <div class="nine press">
-                9
-            </div>
-            <div class="divide press">
-                /
+            <div class="bigB" id="delete">
+                DELETE
             </div>
         </div>
-
-        <div class="row3">
-            <div class="four press">
-                4
-            </div>
-            <div class="five press">
-                5
-            </div>
-            <div class="six press">
-                6
-            </div>
-            <div class="multiply press">
-                X
-            </div>
-
+        <div class="row">
+            <button class="num">7</button>
+            <button class="num">8</button>
+            <button class="num">9</button>
+            <button class="operator">/</button>            
         </div>
-        <div class="row4">
-            <div class="one press">
-                1
-            </div>
-            <div class="two press">
-                2
-            </div>
-            <div class="three press">
-                3
-            </div>
-            <div class="minus press">
-                -
-            </div>
 
+        <div class="row">
+            <button class="num">4</button>
+            <button class="num">5</button>
+            <button class="num">6</button>
+            <button class="operator">x</button>           
         </div>
-        <div class="row5">
-            <div class="decimal press">
-                .
-            </div>
-            <div class="zero press">
-                0
-            </div>
-            <div class="equals press">
-                =
-            </div>
-            <div class="plus press">
-                +
-            </div>
 
+        <div class="row">
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="operator">-</button>           
+        </div>
+
+        <div class="row">
+            <button class="decimal">.</button>
+            <button class="num">0</button>
+            <button class="equal">=</button>
+            <button class="operator">+</button>            
         </div>
     </div>
 </div>
